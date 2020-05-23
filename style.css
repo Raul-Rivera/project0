@@ -14,21 +14,26 @@ h3 {
 table {
      border: 2px solid black;
      border-collapse: collapse;
-     width: 50%;
 }
 
 th, td {
      border: 2px solid black;
-     padding: 5px;
+     padding: 7px;
      text-align: center;
+     background-color: lightblue;
 }
 
 th {
-     background-color: lightblue;
+     background-color: orange;
 }
 
 .practice {
         background-color: green;
         font-weight: bold;
         color: white;
+}
+
+h2 {
+  color: #3d5e35;
+
 }
