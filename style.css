@@ -1,26 +1,30 @@
-h1 {
+
+#web {
      color: blue;
      font-size: 50px;
      text-align:center;
      font-variant: small-caps;
-   }
+}
+
 
 .alpha {
      color : red;
      font-size: 30px;
      font-variant: small-caps;
-
 }
+
 
 #about {
       color : green;
 }
 
 
+
 table {
      border: 2px solid black;
      border-collapse: collapse;
 }
+
 
 th, td {
      border: 2px solid black;
@@ -29,9 +33,11 @@ th, td {
      background-color: white;
 }
 
+
 th {
      background-color: orange;
 }
+
 
 .practice {
         background-color: green;
@@ -39,12 +45,14 @@ th {
         color: white;
 }
 
+
 .beta {
      font-size: 25px;
      color: black;
      font-weight: bold;
      background-color: lightblue;
 }
+
 
 .me {
       border: 3px solid white;
