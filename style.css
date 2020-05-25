@@ -57,3 +57,9 @@ th {
 .me {
       border: 3px solid white;
 }
+
+.myform {
+     font-size: 20px;
+     color: green;
+     font-weight: normal;
+}
