@@ -1,9 +1,10 @@
 
 #web {
      color: blue;
-     font-size: 50px;
+     font-size: 70px;
      text-align:center;
      font-variant: small-caps;
+     text-shadow: 5px 2px 4px grey;
 }
 
 
@@ -11,11 +12,15 @@
      color : red;
      font-size: 30px;
      font-variant: small-caps;
+
 }
 
 
 #about {
-      color : green;
+      color : white;
+      font-size: 20px;
+      text-indent: 60px;
+      text-align: left;
 }
 
 
@@ -51,15 +56,4 @@ th {
      color: black;
      font-weight: bold;
      background-color: lightblue;
-}
-
-
-.me {
-      border: 3px solid white;
-}
-
-.myform {
-     font-size: 20px;
-     color: green;
-     font-weight: normal;
 }

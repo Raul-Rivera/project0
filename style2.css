@@ -1,0 +1,51 @@
+.myform {
+     font-size: 20px;
+     color: white;
+     font-weight: normal;
+}
+
+body {
+  background-image: url("fondo1.jpg");
+  background-size: 1550px 700px;
+}
+
+#lista {
+   color: white;
+   font-size: 20px;
+
+}
+
+.ima {
+    background-color: pink;
+    border: none;
+    background-image: url("fondo1.jpg");
+    background-size: 700px 385px;
+}
+
+.forma {
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+
+.unorden {
+  list-style: inherit;
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+ul li:before {
+
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  background-size: 30px;
+  background-image: url("icono.jpg");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
