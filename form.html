@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Form</title>
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style1.css">
       <link rel="stylesheet" href="style2.css">
+      <link rel="stylesheet" href="style3.css">
   </head>
   <body>
 <!--Start tabla-->
@@ -20,8 +21,9 @@
     <br><span class="myform">Leave me your information if you like my website or if your have
        any suggestion on how to improve it, thank you very much.</span>
      <form>
-       <div>
+       <div class="box">
          <br><span class="myform">Your Name :  </span><input name="name" type="text" placeholder="Full Name"><br>
+         <br><span class="myform">Your Age :  </span><input name="name" type="number" placeholder="Age"><br>
        </div>
          <br><span class="myform">Are you a...?</span><br>
        <br><div class="forma">
@@ -31,7 +33,7 @@
          <input name="caracter" type="radio" value="other">Other
        </div>
          <br><span class="myform">Select your country :</span><br>
-       <br><div>
+       <br><div class="box">
          <input name="country" list="countries" placeholder="Country">
          <datalist id="countries">
            <option value="AF">Afghanistan</option>
@@ -285,8 +287,8 @@
           <option value="ZW">Zimbabwe</option>
        </div><br>
          <span class="myform">Leave me a comment :</span><br>
-       <br><div>
-         <textarea name="comment" form="usrform">Enter text here...</textarea>
+       <br><div class="box">
+         <textarea name="comentarios" rows="7" cols="80">Here</textarea>
          <br><br><button>Submit</button>
        </div>
     </form>

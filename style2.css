@@ -33,13 +33,10 @@ body {
 }
 
 ul {
-
   list-style-type: none;
-
 }
 
 ul li:before {
-
   content: '';
   display: inline-block;
   height: 25px;
@@ -48,4 +45,20 @@ ul li:before {
   background-image: url("icono.jpg");
   background-repeat: no-repeat;
   margin-right: 5px;
+}
+
+.box input[type=text] {
+  background-color: lightblue;
+}
+
+.box input[type=number] {
+  background-color: lightblue;
+}
+
+.box input[list=countries] {
+  background-color: lightblue;
+}
+
+.box textarea {
+  background-color: lightblue;
 }
