@@ -6,20 +6,13 @@
 
 body {
   background-image: url("fondo1.jpg");
-  background-size: 1550px 700px;
+  background-size: 1550px 800px;
 }
 
 #lista {
    color: white;
    font-size: 20px;
 
-}
-
-.ima {
-    background-color: pink;
-    border: none;
-    background-image: url("fondo1.jpg");
-    background-size: 700px 385px;
 }
 
 .forma {

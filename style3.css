@@ -9,3 +9,18 @@ button {
 button:hover {
      background-color: green;
 }
+
+div::selection {
+  color: black;
+  background-color: yellow;
+}
+
+div ol li::selection {
+  color: black;
+  background-color: yellow;
+}
+
+span::selection {
+  color: black;
+  background-color: yellow;
+}

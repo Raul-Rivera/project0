@@ -15,15 +15,20 @@
 
 }
 
+#photo {
+     float: left;
+     width: 550px;
+     padding-left: 100px;
+     margin-right: -180px;
+}
 
 #about {
       color : white;
       font-size: 20px;
       text-indent: 60px;
-      text-align: left;
+      float: left;
+      width: 800px;
 }
-
-
 
 table {
      border: 2px solid black;
