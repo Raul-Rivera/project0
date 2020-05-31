@@ -1,10 +1,10 @@
 
 #web {
-     color: blue;
+     color: #d6a336;
      font-size: 70px;
      text-align:center;
      font-variant: small-caps;
-     text-shadow: 5px 2px 4px grey;
+     text-shadow: 5px 5px 5px black;
 }
 
 
@@ -18,16 +18,16 @@
 #photo {
      float: left;
      width: 550px;
-     padding-left: 100px;
+     padding-left: 30px;
      margin-right: -180px;
 }
 
 #about {
       color : white;
-      font-size: 20px;
-      text-indent: 60px;
+      font-size: 22px;
+      text-indent: 60;
       float: left;
-      width: 800px;
+      width: 850px;
 }
 
 table {

@@ -1,22 +1,17 @@
 .myform {
-     font-size: 20px;
+     font-size: 22px;
      color: white;
      font-weight: normal;
 }
 
-body {
-  background-image: url("fondo1.jpg");
-  background-size: 1550px 800px;
-}
-
 #lista {
    color: white;
-   font-size: 20px;
+   font-size: 22px;
 
 }
 
 .forma {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-weight: normal;
 }
