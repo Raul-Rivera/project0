@@ -1,0 +1,43 @@
+
+$color: black;
+$background-color: yellow;
+
+div::selection {
+  color: $color;
+  background-color: $background-color;
+}
+
+div ol li::selection {
+  color: $color;
+  background-color: $background-color;
+}
+
+span::selection {
+  color: $color;
+  background-color: $background-color;
+}
+
+%message {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: #66f25e;
+}
+
+.warning {
+    @extend %message;
+    background-color: #f0f05d;
+}
+
+.danger {
+    @extend %message;
+    background-color: #f54c5a;
+}

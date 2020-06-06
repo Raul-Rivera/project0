@@ -7,12 +7,10 @@
      text-shadow: 5px 5px 5px black;
 }
 
-
 .alpha {
      color : red;
      font-size: 30px;
      font-variant: small-caps;
-
 }
 
 #photo {
@@ -22,19 +20,14 @@
      margin-right: -180px;
 }
 
-#about {
-      color : white;
-      font-size: 22px;
-      text-indent: 60;
-      float: left;
-      width: 850px;
+.photooo {
+     padding-left: 70px;
 }
 
 table {
      border: 2px solid black;
      border-collapse: collapse;
 }
-
 
 th, td {
      border: 2px solid black;
@@ -43,11 +36,9 @@ th, td {
      background-color: white;
 }
 
-
 th {
      background-color: orange;
 }
-
 
 .practice {
         background-color: green;
@@ -55,10 +46,22 @@ th {
         color: white;
 }
 
-
 .beta {
      font-size: 25px;
      color: black;
      font-weight: bold;
      background-color: lightblue;
+}
+
+.unorden {
+  list-style: inherit;
+}
+
+.floating1 {
+  float: left;
+}
+
+.floating2 {
+  float: right;
+  margin-right: 300px;
 }

@@ -1,0 +1,48 @@
+
+$font-size: 22px;
+$background-color: lightblue;
+
+#about {
+      color : white;
+      font-size: $font-size;
+      text-indent: 60px;
+      float: left;
+      width: 850px;
+}
+
+.myform {
+     font-size: $font-size;
+     color: white;
+     font-weight: normal;
+}
+
+div {
+  ol, ul {
+    li {
+      color: white;
+      font-size: $font-size;
+    }
+  }
+}
+
+.forma {
+  font-size: $font-size;
+  color: white;
+  font-weight: normal;
+}
+
+.box input[type=text] {
+  background-color: $background-color;
+}
+
+.box input[type=number] {
+  background-color: $background-color;
+}
+
+.box input[list=countries] {
+  background-color: $background-color;
+}
+
+.box textarea {
+  background-color: $background-color;
+}
