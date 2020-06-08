@@ -28,7 +28,7 @@ button:hover {
 @media (min-width: 1000px) {
       body {
           background-image: url("fondo1.jpg");
-          background-size: 1550px 1000px;
+          background-size: 1550px 1250px;
           padding-left: 3%;
           padding-right: 3%;
           }
